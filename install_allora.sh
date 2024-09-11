@@ -45,5 +45,5 @@ sleep 5
 docker compose up -d --build
 
 echo "-----------------------------------------------------------------------------"
-curl -shttps://raw.githubusercontent.com/MeSmallMan/logo/main/logo0.sh | bash
+curl -s https://raw.githubusercontent.com/MeSmallMan/logo/main/logo0.sh | bash
 echo "-----------------------------------------------------------------------------"
