@@ -46,4 +46,6 @@ docker compose up -d --build
 
 echo "-----------------------------------------------------------------------------"
 curl -s https://raw.githubusercontent.com/MeSmallMan/logo/main/logo0.sh | bash
+echo ""
+echo "Для проверки логов: docker compose logs -f --tail=100"
 echo "-----------------------------------------------------------------------------"
