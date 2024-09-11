@@ -50,6 +50,5 @@ echo ""
 echo "Для проверки логов: docker compose logs -f --tail=100"
 echo ""
 echo "Для удаления ноды введи команду (нужно находится в директории с docker-compose.yml файлом: 
-echo "docker compose stop && docker compose rm && docker rmi $(docker images -q) && cd /root/ && rm -rf basic-coin-predict
-ion-node/"
+echo "docker compose stop && docker compose rm && docker rmi $(docker images -q) && cd /root/ && rm -rf basic-coin-prediction-node/"
 echo "-----------------------------------------------------------------------------"
