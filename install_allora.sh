@@ -48,4 +48,7 @@ echo "--------------------------------------------------------------------------
 curl -s https://raw.githubusercontent.com/MeSmallMan/logo/main/logo0.sh | bash
 echo ""
 echo "Для проверки логов: docker compose logs -f --tail=100"
+echo ""
+echo "Для удаления ноды введи команду (нужно находится в директории с docker-compose.yml файлом: docker compose stop && docker compose rm && docker rmi $(docker images -q) && cd /root/ && rm -rf basic-coin-predict
+ion-node/"
 echo "-----------------------------------------------------------------------------"
